@@ -1,49 +1,128 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Daniel Hopper</title>
-	<link rel="stylesheet" href="style.css">
-</head>
-<body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-	<h1>Hi, I'm Daniel!</h1>
-	<h3>I'm a Computer Science student at uWaterloo</h3>
+    <title>Jumbotron Template for Bootstrap</title>
 
-	<p>I'm currently in my 2A term right now, taking these courses:</p>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-	<table class="center">
+    <!-- Custom styles for this template -->
+    <link href="css/jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">DanielHopper.github.io</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+	  <table>
 		<tr>
-			<th><strong>Course code</strong></th>
-			<th colspan="2"><strong>Course name</strong></th>
+			<td rowspan="3" > 
+				<img src="files/cropped_prom.png" style="padding:10px"></img>
+			</td>
 		</tr>
-
+		
 		<tr>
-			<td>CS246</td>
-			<td>Object-Oriented Software Development</td>
+			<td colspan="2">
+				<h1>   Hi, I'm Daniel!</h1>
+				<p>   I'm a Computer Science Student at the University of Waterloo, 
+					planning to specialize my degree with an option in Software Engineering 
+					and a minor in Management Studies. Software development and design is where
+					my major interest lies. With no real area of specialization, I'm open to learning
+					new things, and expanding my knowledge to new areas.</p>
+				<p><a href="files/Resume.pdf" class="btn btn-primary btn-lg" role="button">Download My Resume &raquo;</a></p>
+			</td>
 		</tr>
+	  </table>
+      </div>
+    </div>
 
-		<tr>
-			<td>CS245</td>
-			<td>Logic and Computation</td>
-		</tr>
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>School</h2>
+          <p>I'm currently in my 2A term of Honours Computer Science at uWaterloo, taking the following courses:</p>
+		  <p>
+		  <strong>CS246</strong> Object-Oriented Software Development
+		  <br><strong>CS245</strong> Logic and Computation
+		  <br><strong>MATH239</strong> Introduction to Combinatorics
+		  <br><strong>STAT230</strong> Probability
+		  <br><strong>PD1</strong> Professional Development
+		  </p>
+		  <p>I'll be on my co-op term in the Fall; If you're hiring, connect with me below about employment!</p>
+          <p><a class="btn btn-default" href="http://www.linkedin.com/pub/daniel-hopper/97/261/2b8" role="button">LinkedIn &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Skills/Experience</h2>
+          <p>Throughout my first 3 terms at UW, and even back in highschool, 
+		  I've been building a strong skill set both in and out of the classroom.
+		  My first programming language was Java, 
+		  and I still use it today for side projects. 
+		  First year brought some theoretical knowloedge of ADTs and Algorithms in the context of Racket and C. 
+		  Now here, at the dawn of second year, I'm becoming more familiar with Linux systems, 
+		  using bash, writing scripts, and creating medium-sized programs in C++. 
+		  Out of class, I've been teaching myself HTML/CSS/JavaScript. </p>
+          <p><a class="btn btn-default" href="https://github.com/DanielHopper" role="button">GitHub &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Photography</h2>
+          <p>Aside from Math, Computers, and everything in between, there's much more 
+			to be accounted for in my interest pool! One of the largest being photography.
+			It's one of my favorite past times, and lately I've been aspiring to 
+			become more professional in my photography. I've been a member of the UW Photo 
+			Club since my first term at uWaterloo, and they've only opened my eyes
+			even more! If you're interested in seeing some of my work, you can find it on
+			my 500px profile in the link below.</p>
+          <p><a class="btn btn-default" href="http://500px.com/DanielHopper" role="button">500px Profile &raquo;</a></p>
+        </div>
+      </div>
 
-		<tr>
-			<td>MATH239</td>
-			<td>Introduction to Combinatorics</td>
-		</tr>
+      <hr>
 
-		<tr>	
-			<td>STAT230</td>
-			<td>Probability</td>
-		</tr>
-	</table>
+      <footer>
+        <p>&copy; This website created using Bootstrap</p>
+      </footer>
+    </div> <!-- /container -->
 
-	<h3>You can visit me at any one of these links</h3>
-	<h2>
-		<a href="http://www.linkedin.com/pub/daniel-hopper/97/261/2b8">
-			LinkedIn</a>
-		<a href="https://github.com/DanielHopper">GitHub</a>
-	</h2>
 
-</body>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
 </html>
