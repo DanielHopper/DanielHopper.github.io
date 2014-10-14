@@ -1,0 +1,29 @@
+
+
+.img-circular {
+	width: 200px;
+ 	height: 200px;
+ 	background-image: url('../files/avatar.jpg');
+ 	background-size: cover;
+ 	display: -webkit-inline-box;
+ 	border-radius: 50%;
+ 	-webkit-border-radius: 50%;
+ 	-moz-border-radius: 50%;
+}
+
+.section{
+	width: 100% !important;
+}
+
+.sec-4 {
+	background-color: rgba(105, 208, 253, 0.2)
+}
+
+.sec-3 {
+	background-color: rgba(105, 208, 253, 0.5)
+}
+
+.sec-2 {
+	
+	background-color: rgba(105, 208, 253, 0.8)
+}

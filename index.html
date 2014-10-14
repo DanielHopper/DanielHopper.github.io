@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,24 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="../../favicon.ico">
 
-    <title>Daniel Hopper</title>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+
+    <title>DanielHopper.github.io</title>
+
+    <link href="css/custom.css" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/jumbotron.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <link href="css/starter-template.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
 
@@ -32,7 +33,7 @@
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -40,90 +41,53 @@
           </button>
           <a class="navbar-brand" href="#">DanielHopper.github.io</a>
         </div>
-        <div class="navbar-collapse collapse">
-          
-        </div><!--/.navbar-collapse -->
-      </div>
-    </div>
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-	  <table>
-		<tr>
-			<td rowspan="3" > 
-				<img src="files/cropped_prom.png" style="padding:10px"></img>
-			</td>
-		</tr>
-		
-		<tr>
-			<td colspan="2">
-				<h1>   Hi, I'm Daniel!</h1>
-				<p>   I'm a Computer Science Student at the University of Waterloo, 
-					planning to specialize my degree with an option in Software Engineering 
-					and a minor in Management Studies. Software development and design is where
-					my major interest lies. With no real area of specialization, I'm open to learning
-					new things, and expanding my knowledge to new areas.</p>
-				<p><a href="files/DanielHopper_Resume.pdf" class="btn btn-primary btn-lg" role="button">Download My Resume &raquo;</a></p>
-			</td>
-		</tr>
-	  </table>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="files/DanielHopper_Resume.pdf">Resume</a></li>
+            <li><a href="https://github.com/DanielHopper">GitHub</a></li>
+            <li><a href="https://500px.com/DanielHopper">500px</a></li>
+            <li><a href="mailto:djhopper@uwaterloo.ca">Email</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
 
     <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>School</h2>
-          <p>I'm currently in my 2A term of Honours Computer Science at uWaterloo, taking the following courses:</p>
-		  <p>
-		  <strong>CS246</strong> Object-Oriented Software Development
-		  <br><strong>CS245</strong> Logic and Computation
-		  <br><strong>MATH239</strong> Introduction to Combinatorics
-		  <br><strong>STAT230</strong> Probability
-		  <br><strong>PD1</strong> Professional Development
-		  </p>
-		  <p>I'll be on my co-op term in the Fall; If you're hiring, connect with me below about employment!</p>
-          <p><a class="btn btn-default" href="http://www.linkedin.com/pub/daniel-hopper/97/261/2b8" role="button">LinkedIn &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Skills/Experience</h2>
-          <p>Throughout my first 3 terms at UW, and even back in highschool, 
-		  I've been building a strong skill set both in and out of the classroom.
-		  My first programming language was Java, 
-		  and I still use it today for side projects. 
-		  First year brought some theoretical knowloedge of ADTs and Algorithms in the context of Racket and C. 
-		  Now here, at the dawn of second year, I'm becoming more familiar with Linux systems, 
-		  using bash, writing scripts, and creating medium-sized programs in C++. 
-		  Out of class, I've been teaching myself HTML/CSS/JavaScript. </p>
-          <p><a class="btn btn-default" href="https://github.com/DanielHopper" role="button">GitHub &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Photography</h2>
-          <p>Aside from Math, Computers, and everything in between, there's much more 
-			to be accounted for in my interest pool! One of the largest being photography.
-			It's one of my favorite past times, and lately I've been aspiring to 
-			become more professional in my photography. I've been a member of the UW Photo 
-			Club since my first term at uWaterloo, and they've only opened my eyes
-			even more! If you're interested in seeing some of my work, you can find it on
-			my 500px profile in the link below.</p>
-          <p><a class="btn btn-default" href="http://500px.com/DanielHopper" role="button">500px Profile &raquo;</a></p>
+
+      <div class="starter-template">
+        <div class="img-circular"></div>
+        <h1>Hi, I'm Daniel!</h1>
+        <p class="lead">This is my website. Feel free to look around, or if you really mean business there's some quick links up top! </p>
+      </div>
+      <div class="section sec-2">
+        <div class="starter-template">
+          <h1>About me</h1>
+          <p class="lead">I'm a Computer Science Student at the University of Waterloo, 
+            planning to specialize my degree with an option in Software Engineering 
+            and a minor in Management Studies. Software development and design is where
+            my major interest lies, with no real area of specification at the moment. I love everything from game design, to web development, to data and analytics - I'm always open to learning new things and exploring new areas!</p>
         </div>
       </div>
 
-      <hr>
+      <div class="starter-template sec-3">
+        <h1>Projects</h1>
+        <p class="lead">In my spare time, I really enjoy going to hackathons and working on personal side-projects (like this website right here!). You can find all of these on my GitHub, but here are a few that I'm most proud of: </p>
+      </div>
 
-      <footer>
-        <p>&copy; This website created with Jumbotron Template for Bootstrap</p>
-      </footer>
-    </div> <!-- /container -->
+      <div class="starter-template sec-4">
+        <h1>Photography</h1>
+        <p class="lead">Photography and Digital Imaging is definitely my favorite non-CS related hobby. I'm currently a part of the UWPC (University of Waterloo Photography Club), where we have various workshops and adventures in photography on a bi-weekly basis. You can find my work on my 500px page. </p>
+      </div>
+
+    </div><!-- /.container -->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
