@@ -304,6 +304,23 @@ a:focus {
     padding: 200px 0;
 }
 
+.img-section.img-2 {
+    background-image: url(../img/urbanlights.jpg);
+    padding: 200px 0;
+    background-position-y: 86%;
+}
+
+.img-section.img-3 {
+    background-image: url(../img/bouldering.jpg);
+    padding: 200px 0;
+}
+
+.img-section.img-4 {
+    background-image: url(../img/hwcd.jpg);
+    padding: 200px 0;
+    background-position-y: 20%; 
+}
+
 .img-section-wrap-grey {
     position: relative;
     width: 100%;
