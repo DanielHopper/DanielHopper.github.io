@@ -1,4 +1,4 @@
-/*!
+a/*!
  * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -186,6 +186,7 @@ a:focus {
 
     .intro .intro-body {
         background: linear-gradient(to bottom, rgba(0,0,0,0.66), #2C3E50);
+        padding-top: 150px;
 
     }
 
@@ -303,11 +304,39 @@ a:focus {
     padding: 200px 0;
 }
 
+.img-section.img-2 {
+    background-image: url(../img/urbanlights.jpg);
+    padding: 200px 0;
+    background-position-y: 86%;
+}
+
+.img-section.img-3 {
+    background-image: url(../img/bouldering.jpg);
+    padding: 200px 0;
+}
+
+.img-section.img-4 {
+    background-image: url(../img/hwcd.jpg);
+    padding: 200px 0;
+    background-position-y: 20%; 
+}
+
 .img-section-wrap-grey {
     position: relative;
     width: 100%;
     color: #ECF0F1;
     background: linear-gradient(to top, #7F8C8D 0%, transparent 50%, #7F8C8D 100%);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.img-section-wrap-blue {
+    position: relative;
+    width: 100%;
+    color: #ECF0F1;
+    background: linear-gradient(to top, #2C3E50 0%, transparent 50%, #2C3E50 100%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
