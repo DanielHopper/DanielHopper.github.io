@@ -1,4 +1,13 @@
+@font-face { font-family: BrandonGrotesque; font-weight: 500; src: url('../fonts/Brandon_reg.otf'); }
+@font-face { font-family: BrandonGrotesque; font-weight: 300; src: url('../fonts/Brandon_light.otf'); }
 
+body {
+	font-family: BrandonGrotesque;
+}
+
+a {
+	color: #212121;
+}
 
 .img-circular {
 	width: 200px;
@@ -24,6 +33,6 @@
 }
 
 .sec-2 {
-	
+
 	background-color: rgba(105, 208, 253, 0.8)
 }
